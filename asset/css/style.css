@@ -319,14 +319,6 @@ a.bottom_info_wp {
     scale: 1.1;
 }
 
-@media only screen and (max-width: 1440px) {
-    .container {
-        max-width: 95%;
-        margin: auto;
-    }
-
-}
-
 @media only screen and (max-width: 1024px) {
     .top_bar_title h1 {
         font-size: 28px;
@@ -354,6 +346,11 @@ a.bottom_info_wp {
 
     .brands {
         width: 16%;
+    }
+    
+    .container {
+        max-width: 95%;
+        margin: auto;
     }
 }
 
